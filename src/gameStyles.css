@@ -1,0 +1,36 @@
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; 
+}
+
+.game-question-container {
+    width: 80%; 
+    max-width: 800px; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.game-question {
+    margin-bottom: 20px;
+}
+
+.game-answer-button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.game-correct-answer {
+    background-color: green;
+}
+
+.game-incorrect-answer {
+    background-color: red;
+}
